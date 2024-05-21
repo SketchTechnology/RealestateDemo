@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from preview.themeplace.pro/?g=23754098 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2024 10:57:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#181C1F">
+	<meta name="msapplication-navbutton-color" content="#181C1F">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#181C1F">
+	<meta name="mobile-web-app-capable" content="yes">
+    <meta name="robots" content="index,follow">
+	<link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon.html">
+	<link rel="shortcut icon" type="image/png" sizes="32x32" href="images/32x32.png">
+	<link rel="shortcut icon" type="image/png" sizes="48x48" href="images/48x48.png">
+	<link rel="shortcut icon" type="image/png" sizes="72x72" href="images/72x72.png">
+	<link rel="shortcut icon" type="image/png" sizes="114x114" href="images/114x114.png">
+	<link rel="shortcut icon" type="image/png" sizes="144x144" href="images/144x144.png">
+	<link rel="apple-touch-icon" sizes="16x16" href="images/favicon.html">
+	<link rel="apple-touch-icon" sizes="32x32" href="images/32x32.png">
+	<link rel="apple-touch-icon" sizes="48x48" href="images/48x48.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/114x114.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/144x144.png">
+	<link rel="stylesheet" href="css/demo.css">
+	<meta name="description" content="Live Preview for Arquito - 3D Architecture & Interior HTML Template">
+    <meta name="keywords" content="Arquito - 3D Architecture & Interior HTML Template,demo,live,live preview">
+	<title>Arquito - 3D Architecture & Interior HTML Template - Live Demo</title>
+</head>
+<body>
+	<div id="live-preview">
+		<div class="live-preview__container">
+			<div class="live-preview__logo">
+		
+			</div>
+			<div class="live-preview__info">
+				<a href="#" class="view-template-btn">Buy Now</a>
+				<ul class="device-list">
+					<li class=""><button class="btn btn-phone" data-targetclass="phone-iframe"><img src="images/demo1.png" alt="phone"><span>Phone</span></button></li>
+					<li class=""><button class="btn btn-tablet" data-targetclass="tablet-iframe"><img src="images/demo2.png" alt="tablet"><span>Tablet</span></button></li>
+					<li class="active"><button class="btn btn-desktop" data-targetclass="desktop-iframe"><img src="images/demo3.png" alt="desktop"><span>Desktop</span></button></li>
+				</ul>
+				<div class="price">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="iframelive" class="desktop-iframe">
+		<iframe src="https://gasinforest.com/html/arquito/preview/" frameborder="0" noresize="noresize" data-view="fullScreenPreview"></iframe>
+	</div>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script>
+	$(".device-list").on("click", "button", function() {
+		$(".device-list li").removeClass("active");
+		$(this).parent().addClass("active");
+		$("#iframelive").removeClass();
+		$("#iframelive").addClass($(this).attr("data-targetClass"));
+	});
+	</script>
+</body>
+<!-- Mirrored from preview.themeplace.pro/?g=23754098 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2024 10:57:45 GMT -->
+</html>
+			
